@@ -23,7 +23,7 @@ The human location data for this project was kindly provided by **[WhereData](ht
 
     
 #### 2. *Weather Data*
-Historical hourly weather records were downloaded in batches from [VisualCrossing.com]
+Historical hourly weather records were downloaded in batches from [VisualCrossing.com](https://www.visualcrossing.com/resources/documentation/weather-data-tutorials/how-can-i-download-weather-history-data-as-a-csv-file/)
 - The dataset contained 10+ variables, but only **temperature** and **precipitation** were included in the final model - following extensive exploration
 
 #### 3. *Spatial Features* 
