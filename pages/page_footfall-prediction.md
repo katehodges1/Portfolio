@@ -12,7 +12,7 @@ Whilst my dissertation was an extensive exploratory analysis of the merits of bi
 
 
 ## The Data:
-Data for this project was compiled from **3 key sources** joined and cleaned in R [*(see code for this workflow here)*](https://github.com/katehodges1/katehodges.github.io/main/Predicting-Hampstead-Heath-Footfall/preprocessing):
+Data for this project was compiled from **3 key sources** joined and cleaned in R [*(see code for this workflow here)*](https://github.com/katehodges1/Predicting-Hampstead-Heath-Footfall/tree/main/preprocessing):
 
 
 #### 1. *Footfall Data*
@@ -57,7 +57,7 @@ Historical hourly weather records were downloaded in batches from [VisualCrossin
 **Overview**: Following extensive EDA which formed the bulk of the dissertation, Random Forest model was used to make predictions for the R Shiny dashboard.
 
 ### Exploratory Analysis
-You can view the full code [here](https://github.com/katehodges1/katehodges.github.io/main/Predicting-Hampstead-Heath-Footfall/preprocessing). The following plots are from my dissertation work.
+I then explored the data further, with predictive modelling in mind. You can view the full code [here](https://github.com/katehodges1/Predicting-Hampstead-Heath-Footfall/blob/main/01%20exploratory-data-analysis.R). The following plots are from my dissertation work.
 
 <p align='center'>
     <img src="https://raw.githubusercontent.com/katehodges1/katehodges.github.io/main/assets/img/dashboard/overall-visitation-plot.png" alt="overall visit plot" width="400" />
@@ -76,7 +76,7 @@ In my dissertation, I also applied a **hierarchical clustering** algorithm to th
 <br>
 
 ### Devising a Predictive Model
-You can view the full code [here](https://github.com/katehodges1/katehodges.github.io/main/Predicting-Hampstead-Heath-Footfall)
+You can view the full code [here](https://github.com/katehodges1/Predicting-Hampstead-Heath-Footfall/blob/main/02%20train-random-forest.R)
 
 **→** Random Forest model was selected for this task due to its ability to capture complex, non-linear relationships.
 
@@ -84,7 +84,7 @@ You can view the full code [here](https://github.com/katehodges1/katehodges.gith
 #### Tracking Experiments
 Due to technical restraints with setting up virtual environments on the remote desktop I was working on (required for sufficient computing power to handle the dataset), this ML model was built using R (my first and likely last experience doing so: though its possible in R, I found that Python syntax definitely lends itself more intuitively to ML!) 
 
-  **→** *step 1 was to write a [tracking function](https://github.com/katehodges1/katehodges.github.io/main/Predicting-Hampstead-Heath-Footfall/utils) that emulated function of Python's MLflow*
+  **→** *step 1 was to write a [tracking function](https://github.com/katehodges1/Predicting-Hampstead-Heath-Footfall/blob/main/utils/log_experiment.R) that emulated function of Python's MLflow*
 
     
 #### Approach to modelling
