@@ -11,7 +11,7 @@ Click on a project title to find out more, and visit my GitHub profile to see wh
 ### [Predicting Footfall on Hampstead Heath](/pages/page_footfall-prediction.md)
 Big Data | Random Forest | RShiny Dashboard 
 
-![Dashboard Screenshot](assets/img/main-dashboard-img.png)
+![Dashboard Screenshot](assets/img/dashboard-preview.png)
 
 ---
 
